@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rubro B - Cargar presupuesto</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <body>
+
+        <form action="">
+
+            <label for="">Nro. Presupuesto</label>
+            <input class="form_header" type="number" name="numero" placeholder="Número de presupuesto" id="form_num">
+
+            <label for="">Espacio</label>
+            <input class="form_header" type="text" name="espacio" placeholder="Nombre del espacio" id="form_espacio">
+
+            <label for="">Categoria</label>
+            <input class="form_header" type="text" name="categoria" placeholder="Categoria" id="form_cat">
+
+            <table>
+
+                <tr>
+
+                    <th> <input type="text" placeholder="Clave" id="form_clave"> </th>
+                    <th> <input type="number" placeholder="Precio unitario" id="form_unitario"> </th>
+                    <th> <input type="number" placeholder="Cantidad" id="form_cantidad"> </th>
+                    <th> <input type="number" placeholder="Subtotal" id="form_subtotal"> </th>
+
+                </tr>
+
+                <tr>
+
+                    <th> <input type="text" placeholder="Clave" id="form_clave"> </th>
+                    <th> <input type="number" placeholder="Precio unitario" id="form_unitario"> </th>
+                    <th> <input type="number" placeholder="Cantidad" id="form_cantidad"> </th>
+                    <th> <input type="number" placeholder="Subtotal" id="form_subtotal"> </th>
+
+                </tr>
+
+
+            </table>
+
+            <span>Total: $0,00</span>
+
+            <button id="cargar_btn">Cargar</button>
+
+        </form>
+
+        <!-- Script -->
+        <script src="js/cargaPresupuesto.js"></script>
+
+    </body>
+
+</html>
